@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+header .background {
+    background-image: url(../image/background.jpg);
+    width: 100%;
+    position: absolute;
+}
+
+header h1 {
+    position: absolute;
+    color: #FFF;
+}
+
+main {
+    padding: 1.5rem 2.4rem;
+}
+
+/* -- ここから追加 --*/
+header {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAAXNSR0IArs4c6QAAABlJREFUGFdjZGBg+M+ABTBiEwSJgSRorQMAIZIDBL2ldyAAAAAASUVORK5CYII=) repeat;
+    background-color: #BBB;
+}
+
+header .background {
+    opacity: 0.5;
+}
